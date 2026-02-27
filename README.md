@@ -71,15 +71,6 @@ The project was **completed quickly (~1 hour)** with the guidance of **ChatGPT**
 
 ---
 
-## Time Taken
-
-| Task | Duration |
-|------|---------|
-| Project setup, component integration, page creation | ~1 hour |
-| Deployment & testing | ~10 minutes |
-| **Total** | ~1 hour 10 minutes |
-
----
 
 ## Transparency
 
