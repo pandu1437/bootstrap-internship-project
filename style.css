@@ -1,0 +1,23 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("https://picsum.photos/1600/900") center/cover no-repeat;
+}
+
+.page-header {
+  height: 40vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("https://picsum.photos/1200/600") center/cover no-repeat;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

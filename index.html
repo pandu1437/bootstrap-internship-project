@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | MySite</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">MySite</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section d-flex align-items-center text-center text-white">
+  <div class="container">
+    <h1 class="display-4 fw-bold mb-3">Build Modern Websites with Bootstrap 5</h1>
+    <p class="lead mb-4">Clean. Responsive. Professional.</p>
+    <a href="about.html" class="btn btn-light btn-lg">Learn More</a>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="container py-5">
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">Why Choose Us?</h2>
+    <p class="text-muted">We deliver fast and scalable web solutions.</p>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0 h-100 text-center p-4">
+        <h4 class="fw-bold mb-3">Fast Development</h4>
+        <p>Bootstrap speeds up development using pre-built components.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0 h-100 text-center p-4">
+        <h4 class="fw-bold mb-3">Responsive Design</h4>
+        <p>Your website looks perfect on desktop, tablet, and mobile.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0 h-100 text-center p-4">
+        <h4 class="fw-bold mb-3">Modern UI</h4>
+        <p>Clean layouts and consistent spacing create better UX.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-3">Ready to Start Your Project?</h2>
+    <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#subscribeModal">
+      Subscribe Now
+    </button>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Subscribe to Newsletter</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center py-3">
+  <p class="mb-0">&copy; 2026 MySite. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
